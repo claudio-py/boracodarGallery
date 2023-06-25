@@ -20,15 +20,22 @@
 img {  
   width: 300px;
   height: 280px;
-  object-fit: cover;  
+  object-fit: scale-down;  
 }
-
+p:hover{
+  color: yellow;
+}
+a{
+  text-decoration: none;
+}
 p {
-  font-size: 12px;
+  transition:color .3s;
+  font-size: 16px;
   display: flex;
   align-items: center;  
   justify-content: center;
   color: #FFF;  
+  margin-top: -1rem;
 }
 
 .swiper {
